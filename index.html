@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+</head>
+<body>
+    <div id="container">
+      <div>
+        <input type="text" id="inputBox" value="Bengaluru" />
+        <i id="search-icon" class="fa fa-search"></i>
+      </div>
+      <div>
+        <h2 id="cityname">Bengaluru, IN</h2>
+        <p id="date">sunday 01-06-2023 12:00</p>
+      </div>
+      <h1><span id="celcius">23</span>°c</h1>
+      <h2>clouds <br /><span id="cloud">22°c / 24°c</span></h2>
+    </div>
+
+    <script src="weather.js"></script>
+  </body>
+</html>

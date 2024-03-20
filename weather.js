@@ -38,7 +38,7 @@ function displayWeather(data){
 
 
   const d = new Date();
-  const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesdaygit push -u origin main', 'Thursday', 'Friday', 'Saturday'];
   date.innerHTML = daysOfWeek[d.getDay()] + " " + d.getDate() + "-" + d.getMonth() + "-" + d.getFullYear() + " "+ d.getHours()+":"+d.getMinutes();;
   
   cloud.innerText=currentCelcius-1+"°c / "+(currentCelcius+1) +"°c";
